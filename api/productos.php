@@ -6,8 +6,8 @@ header("Access-Control-Allow-Methods: GET, POST, PUT, DELETE");
 header("Access-Control-Allow-Headers: Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With");
 
 // Incluir archivos requeridos
-include_once 'config/Database.php';
-include_once 'models/Producto.php';
+include_once '../config/Database.php';
+include_once '../models/Producto.php';
 
 // Conectar con la base de datos
 $database = new Database();
