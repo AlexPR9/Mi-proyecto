@@ -1,8 +1,8 @@
-# Proyecto API REST con PHP
+# Proyecto API REST con PHP y Frontend en HTML, CSS y JavaScript
 
-Este proyecto consiste en una API REST desarrollada en PHP puro para la gestión de productos y categorías.
+Este proyecto consiste en una API REST desarrollada en PHP puro para la gestión de productos y categorías, con un frontend en HTML, CSS y JavaScript utilizando Bootstrap.
 
-## Instrucciones de Instalación
+##  Instrucciones de Instalación
 
 ### 1. Clonar el Repositorio
 ```bash
@@ -43,7 +43,7 @@ $password = '';
 ##  Ejecución del Proyecto
 
 ### 1. Iniciar el Servidor XAMPP
-- Abrir XAMPP y activa los servicios **Apache** y **MySQL**.
+- Abrir XAMPP y activar los servicios **Apache** y **MySQL**.
 
 ### 2. Probar API desde Postman
 
@@ -98,7 +98,14 @@ Body (raw, JSON):
 DELETE http://localhost/mi-proyecto/public/index.php/productos?id=1
 ```
 
-##  Estructura del Proyecto
+---
+
+##  Frontend (Interfaz Gráfica)
+
+El proyecto incluye una interfaz gráfica desarrollada con **HTML, CSS y JavaScript**, además de **Bootstrap 5** para los estilos. 
+
+###  Estructura del Proyecto:
+
 ```
 mi-proyecto/
 ├── api/
@@ -109,7 +116,38 @@ mi-proyecto/
 ├── database/
 │   └── mi_proyecto.sql
 ├── public/
+│   ├── crud.html      
+│   ├── css/
+│   │   └── styles.css  
+│   ├── js/
+│   │   └── app.js      
 │   └── index.php
 └── routes/
     └── routes.php
 ```
+
+###  Uso del Frontend
+
+1. Abre tu navegador y accede a:
+```
+http://localhost/mi-proyecto/public/crud.html
+```
+2. Desde la interfaz, puedes:
+   - Obtener, agregar y eliminar categorías.
+   - Obtener, agregar y eliminar productos.
+   - Interactuar con la API REST de forma visual.
+
+---
+
+##  Tecnologías Utilizadas
+
+- PHP (Backend)
+- MySQL (Base de datos)
+- HTML, CSS, JavaScript (Frontend)
+- Bootstrap 5 (Estilos)
+
+---
+
+##  Autor
+
+**AlexPR9** - Proyecto para gestión de productos y categorías.
