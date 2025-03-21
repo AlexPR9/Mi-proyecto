@@ -1,5 +1,7 @@
 # Proyecto API REST con PHP y Frontend en HTML, CSS y JavaScript
 
+Examen para Desarrollador Full Stack
+
 Este proyecto consiste en una API REST desarrollada en PHP puro para la gestión de productos y categorías, con un frontend en HTML, CSS y JavaScript utilizando Bootstrap.
 
 ##  Instrucciones de Instalación
@@ -150,4 +152,4 @@ http://localhost/mi-proyecto/public/crud.html
 
 ##  Autor
 
-**AlexPR9** - Proyecto para gestión de productos y categorías.
+**AlexPR9** - Examen para Desarrollador Full Stack.
